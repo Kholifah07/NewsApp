@@ -6,6 +6,7 @@ import java.util.*
 class DateUtil{
 
     companion object{
+        //digunakan untum mengatur format tanggal
         fun changeDateFormat(strDate: String?): String {
             if(strDate.isNullOrEmpty()){
                return ""

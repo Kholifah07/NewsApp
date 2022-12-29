@@ -6,6 +6,7 @@ import android.net.NetworkCapabilities
 import android.os.Build
 
 class NetworkUtil {
+    // digunakan untuk mengatur koneksi internet
     companion object{
         fun hasInternetConnection(context: Context): Boolean {
             val connectivityManager = context.getSystemService(

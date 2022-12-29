@@ -13,10 +13,10 @@ import com.kadirkuruca.newsapp.R
 import com.kadirkuruca.newsapp.databinding.FragmentArticleBinding
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collect
-
+//artikel fragment
 @AndroidEntryPoint
 class ArticleFragment : Fragment(R.layout.fragment_article) {
-
+//view model
     private val viewModel: ArticleViewModel by viewModels()
     private val args by navArgs<ArticleFragmentArgs>()
 

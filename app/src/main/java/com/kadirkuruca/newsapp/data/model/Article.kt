@@ -5,7 +5,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.kadirkuruca.newsapp.util.DateUtil
 import kotlinx.android.parcel.Parcelize
-
+// kelas entityDB
 @Parcelize
 @Entity(tableName = "article_table")
 data class Article(
